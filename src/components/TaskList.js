@@ -1,4 +1,4 @@
-import supabase from '../supabase';
+import {createClient} from '@supabase/supabase-js';
 
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);

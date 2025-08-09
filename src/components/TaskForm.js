@@ -1,6 +1,6 @@
 'use client';
 
-import supabase from '../supabase';
+import {createClient} from '@supabase/supabase-js';
 import { useState } from 'react';
 
 const TaskForm = () => {
