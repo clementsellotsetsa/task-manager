@@ -1,3 +1,5 @@
+'use client';
+
 import supabase from '../supabase';
 import { useState } from 'react';
 
